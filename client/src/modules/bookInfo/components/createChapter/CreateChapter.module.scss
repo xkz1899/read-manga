@@ -1,0 +1,36 @@
+.wrap {
+	display: grid;
+	grid-template-columns: 3fr 0.5fr 2fr;
+	column-gap: 0.5rem;
+	@media (max-width: 690px) {
+		 grid-template-columns: 1fr;
+		 row-gap: 0.5rem;
+	}
+}
+
+.create_name_chapter,
+.create_order_chapter {
+	background: transparent;
+	border: 1px solid #ffffff44;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.add_chapter {
+	border-radius: 0.5rem;
+	color: #fff;
+	background: #1b1b1b;
+	@media (max-width: 690px) {
+		 padding: 0.5rem 0;
+	}
+	&:hover {
+		background: #1b1b1b8e;
+	}
+	&:active {
+		background: #1b1b1b;
+	}
+	&:focus {
+		background: #1b1b1b8e;
+	}
+}

@@ -1,0 +1,54 @@
+.wrap {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	background: #1b1b1b;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	width: 80vw;
+	max-height: 100%;
+}
+
+.name,
+.date,
+.description {
+	background: transparent;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #ff6a00;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	max-width: 100%;
+}
+
+.status,
+.type {
+	width: 100%;
+	border: 1px solid #ff6a00;
+	background: transparent;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	option {
+		background: #000;
+		color: #fff;
+		&::selection {
+			background: #ff6a00;
+			color: #fff;
+		}
+	}
+}
+
+.save {
+	align-self: start;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	background: #ff6a00;
+	color: #fff;
+	&:hover {
+		background: #ff6a0093;
+	}
+	&:active {
+		background: #ff6a00;
+	}
+}

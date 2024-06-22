@@ -1,0 +1,13 @@
+.input__user {
+		padding: 1rem 1.5rem;
+		border-bottom: 1px solid #ff6a00;
+		background: transparent;
+		color: #fff;
+		transition: 0.5s;
+		&:hover {
+			transform: scale(1.05);
+		}
+		&:focus {
+			transform: scale(1.05);
+		}
+	}

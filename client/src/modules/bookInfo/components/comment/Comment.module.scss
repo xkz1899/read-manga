@@ -1,0 +1,38 @@
+.wrap {
+	background: #1b1b1b;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.login {
+	color: #ff6a00;
+}
+
+.create_date {
+	font-size: 0.6rem;
+	color: #ffffff56;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+
+.remove {
+	display: flex;
+	background: transparent;
+	color: #f00;
+	&:hover {
+		color: #ff00008a;
+	}
+	&:active {
+		color: #f00;
+	}
+}
+
+.message {
+	white-space: pre-wrap;
+	word-break: break-word;
+}

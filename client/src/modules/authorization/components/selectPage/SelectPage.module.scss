@@ -1,0 +1,17 @@
+.select {
+	display: flex;
+	align-items: center;
+	margin-top: 0.5rem;
+  align-self: end;
+}
+
+.btn {
+	background: transparent;
+	color: #ff6a00;
+	&:hover {
+		color: #ff6a00b4;
+	}
+	&:active {
+		color: #ff6a00;
+	}
+}

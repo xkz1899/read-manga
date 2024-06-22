@@ -1,0 +1,60 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	max-width: 5rem;
+	img {
+		width: 5rem;
+		height: 5rem;
+		object-fit: cover;
+	}
+}
+
+.origin_image {
+	opacity: 1;
+	&:hover {
+		opacity: 0.5;
+	}
+	&:active {
+		opacity: 1;
+	}
+}
+
+.exist_order {
+	background: transparent;
+	color: #fff;
+	margin-top: 0.2rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ff6a00;
+	padding: 0.3rem;
+}
+
+.edit {
+  margin-top: 0.2rem;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ff6a00;
+	color: #ff6a00;
+	background: transparent;
+	&:hover {
+		border: 1px solid rgba(255, 0, 0, 0.555);
+	}
+	&:active {
+		border: 1px solid #f00;
+	}
+}
+
+.delete {
+	width: 100%;
+	margin-top: 0.5rem;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+	border: 1px solid #f00;
+	color: #f00;
+	background: transparent;
+	&:hover {
+		border: 1px solid rgba(255, 0, 0, 0.555);
+	}
+	&:active {
+		border: 1px solid #f00;
+	}
+}

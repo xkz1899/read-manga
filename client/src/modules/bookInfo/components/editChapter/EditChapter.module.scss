@@ -1,0 +1,33 @@
+.wrap {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	background: #1b1b1b;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	input {
+		background: transparent;
+		color: #fff;
+		border: 1px solid #ff6a00;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+	}
+	button {
+		background: #ff6a00;
+		color: #fff;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+		align-self: start;
+		&:hover {
+			background: #ff6a00a4;
+		}
+		&:active {
+			background: #ff6a00;
+		}
+	}
+}
+
+.order {
+	align-self: start;
+	width: 4rem;
+}

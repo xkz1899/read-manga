@@ -1,0 +1,152 @@
+.wrap {
+}
+
+.title {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.count {
+	border: 1px solid #ff6a00;
+	background: transparent;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 4rem;
+	margin-bottom: 0.3rem;
+}
+
+.upload_wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0.3rem;
+	margin: 0.5rem 0;
+}
+
+.upload_btn {
+	background: transparent;
+}
+
+.order {
+	border: 1px solid #ff6a00;
+	background: transparent;
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 7rem;
+}
+
+.upload {
+	cursor: pointer;
+	label {
+	}
+	svg {
+		display: flex;
+		font-size: 1.5rem;
+		color: #fff;
+		&:hover {
+			color: #ff6a00;
+		}
+		&:active {
+			color: #fff;
+		}
+	}
+	input {
+		display: none;
+	}
+}
+
+.uploads {
+	display: flex;
+	column-gap: 1rem;
+	row-gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+.preview_image {
+	max-width: 5rem;
+	max-height: 5rem;
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+}
+
+.preview_empty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5rem;
+	height: 5rem;
+	border: 1px dashed #ffffff73;
+	color: #ffffff73;
+}
+
+.add_page {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	background: #ff6a00;
+	color: #fff;
+	&:hover {
+		background: #ff6a0096;
+	}
+	&:active {
+		background: #ff6a00;
+	}
+}
+
+.existing_pages {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+
+
+
+
+.edit {
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	background: #ff6a00;
+	color: #fff;
+	&:hover {
+		background: #ff6a0096;
+	}
+	&:active {
+		background: #ff6a00;
+	}
+}
+
+.order_exist {
+	color: #fff;
+	background: transparent;
+	border: 1px solid #ffffff73;
+	padding: 0.1rem 0.5rem;
+	text-align: center;
+}
+
+
+
+.name_book {
+	cursor: pointer;
+	&:hover {
+		color: #ffffff71;
+	}
+	&:active {
+		color: #fff;
+	}
+}
+
+.name_chapter {
+	cursor: pointer;
+	&:hover {
+		color: #ffffff71;
+	}
+	&:active {
+		color: #fff;
+	}
+}
+

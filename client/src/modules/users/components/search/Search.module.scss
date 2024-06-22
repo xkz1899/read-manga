@@ -1,0 +1,13 @@
+.search {
+	align-self: end;
+	display: flex;
+	background: transparent;
+	border: 1px solid #ff6a00;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	color: #fff;
+	max-width: 10rem;
+	&::placeholder {
+		color: #ffffff70;
+	}
+}

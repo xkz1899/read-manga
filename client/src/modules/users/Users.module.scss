@@ -1,0 +1,95 @@
+.wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 0.5rem;
+	height: 80vh;
+	width: 100%;
+	@media (max-width: 500px) {
+		 height: 100%;
+	}
+}
+
+.users {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	width: 100%;
+	border: 1px solid #ff6a00;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.user {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	@media (max-width: 500px) {
+		grid-template-columns: 1fr;
+		row-gap: 0.3rem;
+		border-bottom: 1px solid #ffffff4f;
+		padding-bottom: 0.5rem;
+	}
+}
+
+.login {
+}
+
+.column_name {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	border-bottom: 1px solid #ffffff4f;
+	padding-bottom: 0.3rem;
+	@media (max-width: 500px) {
+		display: none;
+	}
+}
+
+.roles {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 0.5rem;
+}
+
+.role {
+	display: flex;
+	align-items: center;
+	column-gap: 0.3rem;
+}
+
+.role_name {
+	cursor: pointer;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	&:hover {
+		border-bottom: 1px solid #ffffff81;
+	}
+	&:active {
+		border-bottom: 1px solid #fff;
+	}
+}
+
+.remove {
+	display: flex;
+	background: transparent;
+	color: #f00;
+	&:hover {
+		color: rgba(255, 0, 0, 0.514);
+	}
+	&:active {
+		color: #f00;
+	}
+}
+
+.add {
+	display: flex;
+	background: transparent;
+	color: #ff6a00;
+	&:hover {
+		color: #ff6a0075;
+	}
+	&:active {
+		color: #ff6a00;
+	}
+}

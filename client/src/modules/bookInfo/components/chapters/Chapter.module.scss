@@ -1,0 +1,63 @@
+.chapters {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+}
+
+.chapter {
+	background: #1b1b1b;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	&:hover {
+		background: #1b1b1b9d;
+		.chapter_name {
+			color: #ff6a00;
+		}
+	}
+}
+
+.like {
+	display: flex;
+	align-items: center;
+	column-gap: 0.1rem;
+	color: #fff;
+	&:hover {
+		color: #ffffff9a;
+	}
+	&:active {
+		color: #fff;
+	}
+}
+
+.chapter_info {
+	display: flex;
+	column-gap: 0.3rem;
+}
+
+.remove_chapter {
+	display: flex;
+	background: transparent;
+	color: #fff;
+	&:hover {
+		color: #ffffff9a;
+	}
+	&:active {
+		color: #fff;
+	}
+}
+
+.edit {
+	display: flex;
+	background: transparent;
+	color: #fff;
+	&:hover {
+		color: #ffffff9a;
+	}
+	&:active {
+		color: #fff;
+	}
+}
