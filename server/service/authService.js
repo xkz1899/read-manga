@@ -32,14 +32,10 @@ class AuthController {
 		await roleService.createUserRole(user.id, role.id)
 
 		if (!fs.existsSync(path.resolve(__dirname, "..", "static"))) {
-			fs.mkdir(path.resolve(__dirname, "..", "static"), err => {
-				if (err) throw err
-			})
+			fs.mkdirSync(path.resolve(__dirname, "..", "static"))
 		}
 		const userPath = path.resolve(__dirname, "..", "static", user.id + "")
-		fs.mkdir(userPath, err => {
-			if (err) throw err
-		})
+		fs.mkdirSync(userPath)
 		const userAndRole = await User.findOne({
 			include: {
 				model: Role,
